@@ -18,13 +18,16 @@ h6 {
   font-family: var(--heading-font-family);
   font-weight: bold;
 }
+
 h1 {
   font-size: 96px;
   line-height: 1.5;
 }
+
 h2 {
   font-size: 64px;
 }
+
 p {
   font-weight: normal;
   font-size: 16px;
@@ -45,6 +48,8 @@ p {
 }
 
 .hero h2 {
+  line-height: 1.5;
+  font-size: 24px;
   line-height: 1.5;
   font-size: 24px;
 }
@@ -71,7 +76,7 @@ p {
   padding: 120px 60px;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 900px) {
   h1 {
     font-size: 44px;
     line-height: 2;
@@ -86,9 +91,4 @@ p {
     padding: 0;
     text-align: center;
   }
-}
-
-.img-fluid {
-  max-width: 100%;
-  height: auto;
 }
