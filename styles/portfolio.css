@@ -101,7 +101,7 @@ p {
   margin: 20px 0;
 }
 .logo {
-  max-width: 150px;
+  max-height: 40px;
 }
 nav {
   padding: 20px;
@@ -120,9 +120,10 @@ nav a {
   text-decoration: none;
   color: #272142;
 }
-nav a:hover {
+nav a:hover,
+nav li.active a {
   color: var(--branding-color);
-  transition: all 100ms ease-in-out;
+  text-decoration: none;
 }
 
 @media (max-width: 900px) {
