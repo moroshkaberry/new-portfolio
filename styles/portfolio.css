@@ -40,7 +40,7 @@ p {
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 
 .hero p {
@@ -79,7 +79,7 @@ p {
   padding: 120px 60px;
 }
 .about-section {
-  padding: 120px 60px;
+  padding: 60px 20px;
 }
 
 .about-section h1 {
@@ -150,6 +150,7 @@ footer .contact-box {
 footer .email-link:hover {
   color: var(--branding-color);
 }
+
 footer .social-links a {
   margin: 0 20px;
   color: var(--branding-color);
@@ -168,9 +169,7 @@ footer .social-links a {
   h2 {
     font-size: 44px;
   }
-  .hero {
-    padding: 80px 20px;
-  }
+
   .project-description {
     padding: 0;
     text-align: center;
